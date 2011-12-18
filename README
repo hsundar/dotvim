@@ -8,6 +8,14 @@ ln -s ~/.vim/gvimrc ~/.gvimrc
 cd ~/.vim
 git submodule update --init
 
+== Installing a new plugin ==
+
+cd ~/.vim
+mkdir ~/.vim/bundle
+git submodule add http://github.com/tpope/vim-fugitive.git bundle/fugitive
+git add .
+git commit -m "Install Fugitive.vim bundle as a submodule."
+
 == Upgrading a plugin bundle == 
 
 cd ~/.vim/bundle/fugitive
