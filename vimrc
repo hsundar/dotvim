@@ -3,7 +3,14 @@
 " first clear any existing autocommands:
 autocmd!
 
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" Pathogen
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+call pathogen#runtime_append_all_bundles()
+call pathogen#helptags()
 
+
+"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 syntax on
 
 " have fifty lines of command-line (etc) history:
