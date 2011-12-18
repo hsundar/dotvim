@@ -187,6 +187,9 @@ noremap <Ins> 2<C-Y>
 noremap <Del> 2<C-E>
 " [<Ins> by default is like i, and <Del> like x.]
 
+" Gundo 
+nnoremap <F5> :GundoToggle<CR>
+
 " use <F6> to cycle through split windows (and <Shift>+<F6> to cycle backwards,
 " where possible):
 nnoremap <F6> <C-W>w
