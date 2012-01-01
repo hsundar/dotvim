@@ -50,7 +50,7 @@ endif
 
 " for vimwiki
 set nocompatible
-"let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki'}]
+let g:vimwiki_list = [{'path': '~/Dropbox/vimwiki'}]
 
 " when using list, keep tabs at their full width and display `arrows':
 execute 'set listchars+=tab:' . nr2char(187) . nr2char(183)
@@ -105,6 +105,7 @@ filetype plugin on
 augroup filetype
   autocmd BufNewFile,BufRead */.Postponed/* set filetype=mail
   autocmd BufNewFile,BufRead *.txt set filetype=human
+  autocmd BufNewFile,BufRead *.txx set filetype=cpp
 augroup END
 
 " in human-language files, automatically format everything at 72 chars:
@@ -385,7 +386,8 @@ set statusline=%F%m%r%h%w\ [%{&ff}]\ [%Y]%=(%l,%v)\ %p%%\ \ [%L]
 set laststatus=2
 
 " set the font
-set guifont=Monospace\ 10
+" set guifont=Monospace\ 10
+set guifont=Monaco:h12
 
 " disable the toolbar
 set guioptions-=T
