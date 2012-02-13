@@ -272,7 +272,8 @@ nmap <F11> 1G=G
 imap <F11> <ESC>1G=Ga
 
 " Informative status line
-set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\ [%l/%L\ (%p%%)]
+" set statusline=%F%m%r%h%w\ [TYPE=%Y\ %{&ff}]\ [%l/%L\ (%p%%)]
+set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l,%c%V%)\ %P
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Folding
@@ -285,10 +286,10 @@ set foldenable
 
 " Make folding indent sensitive
 set foldmethod=syntax
-set fdm=indent
+"set fdm=indent
 
 " Don't autofold anything (but I can still fold manually)
-set foldlevel=20
+set foldlevel=2
 
 " don't open folds when you search into them
 " set foldopen-=search

@@ -1,3 +1,7 @@
+:Ack	ack.txt	/*:Ack*
+:AckAdd	ack.txt	/*:AckAdd*
+:LAck	ack.txt	/*:LAck*
+:LAckAdd	ack.txt	/*:LAckAdd*
 :VWS	vimwiki.txt	/*:VWS*
 :Vimwiki2HTML	vimwiki.txt	/*:Vimwiki2HTML*
 :Vimwiki2HTMLBrowse	vimwiki.txt	/*:Vimwiki2HTMLBrowse*
@@ -27,6 +31,9 @@
 :VimwikiUISelect	vimwiki.txt	/*:VimwikiUISelect*
 :VimwikiVSplitLink	vimwiki.txt	/*:VimwikiVSplitLink*
 VimwikiWeblinkHandler	vimwiki.txt	/*VimwikiWeblinkHandler*
+ack	ack.txt	/*ack*
+ack-author	ack.txt	/*ack-author*
+ack.txt	ack.txt	/*ack.txt*
 g:vimwiki_CJK_length	vimwiki.txt	/*g:vimwiki_CJK_length*
 g:vimwiki_auto_checkbox	vimwiki.txt	/*g:vimwiki_auto_checkbox*
 g:vimwiki_badsyms	vimwiki.txt	/*g:vimwiki_badsyms*
